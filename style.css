@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style hero section */
+#hero {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #555;
+}
+
+/* Style about section */
+#about {
+    padding: 50px;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style course section */
+#course {
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+#course h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#course ul {
+    list-style-type: none;
+}
+
+#course ul li {
+    margin-bottom: 10px;
+}
+
+/* Style images */
+img {
+    max-width: 10%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
